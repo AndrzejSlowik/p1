@@ -302,8 +302,6 @@ h1 {
     }
     .container{
       padding: 1%;
-      border: 5px;
-      margin: 20px 900px 10px 100px;
     }
     .leftContainer{
       gap: 20px;
@@ -329,7 +327,7 @@ h1 {
      
     }
     .button{
-    background-image: url("./img/Button.png");
+      background-image: url("./img/Button.png");
     background-size: cover;
     width: 90px;
     height: 35px;
@@ -340,17 +338,16 @@ h1 {
     margin-left: 2%;
     }
     .firstPageGrid{
-    /* justify-content: flex-start; */
     display: grid;
-    grid-template: repeat(1, 1fr)/ repeat(2, 1fr);
+    grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
     padding: 2%;
     place-items: start left;
-    padding-left: 250;
-    padding-right: 0;
+    padding-left: 10%;
+    padding-right: 15%;
     max-height: 450px;
     width: 100%;
     gap: 1rem;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-columns: auto-fit, ninmax(240px);
     /* grid-template-rows: auto-fix; */
     }
@@ -433,7 +430,6 @@ h1 {
     padding: 0px;
     }
     .innerSecondPageGrid{
-        background-color: pink;
     grid-area: 1/1/2/2;
     display: flex;
     flex-direction: column;
@@ -441,7 +437,7 @@ h1 {
     flex-wrap: wrap;
     padding-top: 30%;
     padding-bottom: 30%;
-    max-height: 30%;
+    max-height: 70%;
     }
     .heading{
     font-family: "myFont";
@@ -524,7 +520,7 @@ h1 {
     .device{
     grid-area: 1/2/2/2;
     object-fit: cover;
-    width: 74%;
+    width: 100%;
     }
     .innerSecondPageGrid{
     grid-area: 1/1/2/2;
