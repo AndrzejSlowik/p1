@@ -102,7 +102,7 @@ h1 {
   border: none;
   align-items: center;
   justify-content: center;
-  background-image: url(./img/🔠\ Text.png);
+  background-image: url(./img/Text.png);
   background-size: 65% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ h1 {
   border: none;
   align-items: center;
   justify-content: center;
-  background-image: url(./img/🔠\ Text.png);
+  background-image: url(./img/Text.png);
   background-size: 65% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ h1 {
      
     }
     .button{
-      background-image: url("./img/Button.png");
+    background-image: url("./img/Button.png");
     background-size: cover;
     width: 90px;
     height: 35px;
@@ -338,12 +338,13 @@ h1 {
     margin-left: 2%;
     }
     .firstPageGrid{
+    /* justify-content: flex-start; */
     display: grid;
-    grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
+    grid-template: repeat(1, 1fr)/ repeat(2, 1fr);
     padding: 2%;
-    place-items: start left;
-    padding-left: 10%;
-    padding-right: 15%;
+    place-items: start right;
+    padding-left: 1;
+    padding-right: 0;
     max-height: 450px;
     width: 100%;
     gap: 1rem;
@@ -393,7 +394,7 @@ h1 {
     border: none;
     align-items: center;
     justify-content: center;
-    background-image: url(./img/🔠\ Text.png);
+    background-image: url(./img/Text.png);
     background-size: 65% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -486,7 +487,7 @@ h1 {
     border: none;
     align-items: center;
     justify-content: center;
-    background-image: url(./img/🔠\ Text.png);
+    background-image: url(./img/Text.png);
     background-size: 65% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -599,6 +600,6 @@ h1 {
   }
   @font-face {
     font-family: "myFontSemi";
-    src: url("./fonts/Inter\ Semi\ Bold\ 600.woff2") format("woff");
+    src: url("./fonts/Inter-Semi-Bold-600.woff2") format("woff");
   }
   
