@@ -1,220 +1,99 @@
 h1 {
     font-size: 32px;
   }
-  @media (min-width: 500px) {
-    h1 {
-      font-size: 48px;
-    }
-  }
-  @media (min-width: 768px) {
-    h1 {
-      font-size: 52px;
-    }
-  }
-  @media (min-width: 992px) {
-    h1 {
-      font-size: 60px;
-    }
-  }
-  @media (min-width: 1200px) {
-    h1 {
-        font-size: 92px;
-    }
-    @font-face {
-      font-family: "myFont";
-      src: url("./fonts/Inter-VariableFont_slnt\,wght.woff2") format("woff");
-    }
-    @font-face {
-      font-family: "myFontSemi";
-      src: url("./fonts/Inter\ Semi\ Bold\ 600.woff2") format("woff");
-    }
-  }
   .container{
-      display: flex;
-      align-items: center;
-      padding: 1%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
   }
   .leftContainer{
-      display: flex;
-      list-style: none;
-      gap: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
   }
   .link a{
-    font-family: "myFontSemi";
-      display: flex;
-      text-decoration: none;
-      color: black;
-      font-size: 15px;
-      letter-spacing: -0.1px;
-      
+  font-family: "myFontSemi";
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    
   }
   .rightContainer{
-    margin-left: auto;
-      display: flex;
-      list-style: none;
-      gap: 20px;
+  margin-left: auto;
+    display: flex;
+    list-style: none;
+    gap: 20px;
   }
   .linkRight a{
-    font-family: "myFontSemi";
-      display: flex;
-      color: #24afb5;
-      text-decoration: none;
-      font-size: 15px;
-      letter-spacing: -0.1px;
-     
-  }
-  .button{
-      background-image: url("./img/Button.png");
-    background-size: cover;
-    width: 90px;
-    height: 35px;
-    cursor: pointer;
-    border-radius: 10px;
-    display: flex;
-    border: none;
-    margin-left: 2%;
-  }
-  .firstPageGrid{
-    display: grid;
-    grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
-    padding: 2%;
-    place-items: start left;
-    padding-left: 10%;
-    padding-right: 15%;
-    max-height: 450px;
-    width: 100%;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: auto-fit, ninmax(240px);
-    /* grid-template-rows: auto-fix; */
-  }
-  .src{
-    grid-area: 1/1/2/2;
-    object-fit: cover;
-    border-radius: 10px;
-    /* width: 100%;
-    height: 100%; */
-  }
-  /* .innerFirstPageGrid{
-    display: grid;
-    grid-area: 1/2/2/3;
-    max-height: 80%;
-    padding-left: 2%;
-    grid-template: 1fr 1fr 1fr/ 1fr;
-    justify-content: center;
-  } */
-  .h1{
-    font-family: "myFont";
-    grid-template: 20%/70%;
-    font-weight: bold;
-    font-size: 48px;
-    letter-spacing: -1.2px;
-    max-width: 80%;
-  }
-  .mainParagraph{
-    font-family: "myFont";
-    grid-area: 2/1/3/2;
-    font-size: 20px;
-    color: #585757;
-    letter-spacing: -0.3px;
-    max-width: 80%;
-  }
-  .secondButton{
-    background-color: #24afb5;
-    grid-area: 3/1/4/2;
-    width: 95px;
-  height: 45px;
-  cursor: pointer;
-  border-radius: 7px;
-  display: flex;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  background-image: url(./img/🔠\ Text.png);
-  background-size: 65% auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 80%;
-}
-.partners{
-  font-family: myFont;
-  font-size: 13px;
-  color: #969696;
-  padding-left: 10%;
-  letter-spacing: 1px;
-}
-.brands{
-  padding-top: 10px;
-  padding-bottom: 100px;
-  padding-right: 30%;
-}
-.secondPageGrid{
-  display: grid;
-  grid-template: 1fr/ 1fr 1fr;
-  place-items: start right;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  border-style: solid;
-  border-width: 1.5px;
-  border-color: #DBDBDB transparent #DBDBDB transparent;
-}
-.device{
-  grid-area: 1/2/2/2;
-  object-fit: cover;
- justify-self: end;
-  margin: 0px;
-  padding: 0px;
-}
-.innerSecondPageGrid{
-  grid-area: 1/1/2/2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 30%;
-  padding-bottom: 30%;
-  max-height: 70%;
-}
-.heading{
-font-family: "myFont";
-font-weight: bold;
-letter-spacing: 1px;
-font-size: 13px;
-text-align: center;
-margin-bottom: 1px;
-margin-top: 5px;
-}
-.h1SecondPage{
-  font-family: "myFont";
-  font-weight: bold;
-  font-size: 48px;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: center;
-  margin-bottom: 2px;
-  margin-top: 15px;
-}
-.secondPageParagraph{
-  font-family: "myFont";
-  font-size: 20px;
-  color: #585757;
-  letter-spacing: -0.3px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 6px;
-}
-.learnMore{
   font-family: "myFontSemi";
     display: flex;
     color: #24afb5;
     text-decoration: none;
-    font-size: 20px;
-    letter-spacing: -0.2px;
-    text-align: center;
-}  
-.secondButton{
-background-color: #24afb5;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+   
+  }
+  .button{
+    background-image: url("./img/Button.png");
+  background-size: cover;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  border: none;
+  margin-left: 2%;
+  }
+  .firstPageGrid{
+  display: grid;
+  grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
+  padding: 2%;
+  place-items: start left;
+  padding-left: 10%;
+  padding-right: 15%;
+  max-height: 450px;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto-fit, ninmax(240px);
+  /* grid-template-rows: auto-fix; */
+  }
+  .src{
+  grid-area: 1/1/2/2;
+  object-fit: cover;
+  border-radius: 10px;
+  /* width: 100%;
+  height: 100%; */
+  }
+  /* .innerFirstPageGrid{
+  display: grid;
+  grid-area: 1/2/2/3;
+  max-height: 80%;
+  padding-left: 2%;
+  grid-template: 1fr 1fr 1fr/ 1fr;
+  justify-content: center;
+  } */
+  .h1{
+  font-family: "myFont";
+  grid-template: 20%/70%;
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -1.2px;
+  max-width: 80%;
+  }
+  .mainParagraph{
+  font-family: "myFont";
+  grid-area: 2/1/3/2;
+  font-size: 20px;
+  color: #585757;
+  letter-spacing: -0.3px;
+  max-width: 80%;
+  }
+  .secondButton{
+  background-color: #24afb5;
+  grid-area: 3/1/4/2;
   width: 95px;
   height: 45px;
   cursor: pointer;
@@ -227,23 +106,116 @@ background-color: #24afb5;
   background-size: 65% auto;
   background-position: center;
   background-repeat: no-repeat;
-}
-.partners{
+  max-width: 80%;
+  }
+  .partners{
   font-family: myFont;
   font-size: 13px;
   color: #969696;
   padding-left: 10%;
   letter-spacing: 1px;
-}
-.brands{
+  }
+  .brands{
+  padding-top: 10px;
+  padding-bottom: 100px;
+  padding-right: 30%;
+  }
+  .secondPageGrid{
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr;
+  place-items: start right;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #DBDBDB transparent #DBDBDB transparent;
+  }
+  .device{
+  grid-area: 1/2/2/2;
+  object-fit: cover;
+  justify-self: end;
+  margin: 0px;
+  padding: 0px;
+  }
+  .innerSecondPageGrid{
+  grid-area: 1/1/2/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  max-height: 70%;
+  }
+  .heading{
+  font-family: "myFont";
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 5px;
+  }
+  .h1SecondPage{
+  font-family: "myFont";
+  font-weight: bold;
+  font-size: 48px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 15px;
+  }
+  .secondPageParagraph{
+  font-family: "myFont";
+  font-size: 20px;
+  color: #585757;
+  letter-spacing: -0.3px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  }
+  .learnMore{
+  font-family: "myFontSemi";
+    display: flex;
+    color: #24afb5;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    text-align: center;
+  }  
+  .secondButton{
+  background-color: #24afb5;
+  width: 95px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/🔠\ Text.png);
+  background-size: 65% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .partners{
+  font-family: myFont;
+  font-size: 13px;
+  color: #969696;
+  padding-left: 10%;
+  letter-spacing: 1px;
+  }
+  .brands{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
   padding-left: 10%;
   padding-bottom: 100px;
-}
-.secondPageGrid{
+  }
+  .secondPageGrid{
   display: grid;
   grid-template: 100%/ 50% 50%;
   place-items: start right;
@@ -253,13 +225,13 @@ background-color: #24afb5;
   border-width: 1.5px;
   border-color: #DBDBDB transparent #DBDBDB transparent;
   column-gap: 3%;
-}
-.device{
+  }
+  .device{
   grid-area: 1/2/2/2;
   object-fit: cover;
   width: 100%;
-}
-.innerSecondPageGrid{
+  }
+  .innerSecondPageGrid{
   grid-area: 1/1/2/2;
   display: flex;
   flex-direction: column;
@@ -270,17 +242,17 @@ background-color: #24afb5;
   max-height: 70%;
   padding-left: 10%;
   padding-right: 10%;
-}
-.heading{
-font-family: "myFont";
-font-weight: bold;
-letter-spacing: 1px;
-font-size: 13px;
-text-align: center;
-margin-bottom: 1px;
-margin-top: 5px;
-}
-.h1SecondPage{
+  }
+  .heading{
+  font-family: "myFont";
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 5px;
+  }
+  .h1SecondPage{
   font-family: "myFont";
   font-weight: bold;
   font-size: 48px;
@@ -289,8 +261,8 @@ margin-top: 5px;
   text-align: center;
   margin-bottom: 2px;
   margin-top: 15px;
-}
-.secondPageParagraph{
+  }
+  .secondPageParagraph{
   font-family: "myFont";
   font-size: 20px;
   color: #585757;
@@ -298,9 +270,8 @@ margin-top: 5px;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 6px;
-}
-
-.learnMore{
+  }
+  .learnMore{
   font-family: "myFontSemi";
     display: flex;
     color: #24afb5;
@@ -308,8 +279,8 @@ margin-top: 5px;
     font-size: 20px;
     letter-spacing: -0.2px;
     text-align: center;
-} 
-.submitButton{
+  } 
+  .submitButton{
   background-color: #24afb5;
   width: 95px;
   height: 45px;
@@ -324,4 +295,310 @@ margin-top: 5px;
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 10%;
-}
+  }
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 60px;
+    }
+    .container{
+      padding: 1%;
+    }
+    .leftContainer{
+      gap: 20px;
+    }
+    .link a{
+      font-size: 15px;
+      letter-spacing: -0.1px;
+      
+    }
+    .rightContainer{
+    margin-left: auto;
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    .linkRight a{
+    font-family: "myFontSemi";
+      display: flex;
+      color: #24afb5;
+      text-decoration: none;
+      font-size: 15px;
+      letter-spacing: -0.1px;
+     
+    }
+    .button{
+      background-image: url("./img/Button.png");
+    background-size: cover;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    border: none;
+    margin-left: 2%;
+    }
+    .firstPageGrid{
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(2, 1fr);
+    padding: 2%;
+    place-items: start left;
+    padding-left: 10%;
+    padding-right: 15%;
+    max-height: 450px;
+    width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto-fit, ninmax(240px);
+    /* grid-template-rows: auto-fix; */
+    }
+    .src{
+    grid-area: 1/1/2/2;
+    object-fit: cover;
+    border-radius: 10px;
+    /* width: 100%;
+    height: 100%; */
+    }
+    /* .innerFirstPageGrid{
+    display: grid;
+    grid-area: 1/2/2/3;
+    max-height: 80%;
+    padding-left: 2%;
+    grid-template: 1fr 1fr 1fr/ 1fr;
+    justify-content: center;
+    } */
+    .h1{
+    font-family: "myFont";
+    grid-template: 20%/70%;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1.2px;
+    max-width: 80%;
+    }
+    .mainParagraph{
+    font-family: "myFont";
+    grid-area: 2/1/3/2;
+    font-size: 20px;
+    color: #585757;
+    letter-spacing: -0.3px;
+    max-width: 80%;
+    }
+    .secondButton{
+    background-color: #24afb5;
+    grid-area: 3/1/4/2;
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 7px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/🔠\ Text.png);
+    background-size: 65% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    }
+    .partners{
+    font-family: myFont;
+    font-size: 13px;
+    color: #969696;
+    padding-left: 10%;
+    letter-spacing: 1px;
+    }
+    .brands{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 30%;
+    }
+    .secondPageGrid{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    place-items: start right;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #DBDBDB transparent #DBDBDB transparent;
+    }
+    .device{
+    grid-area: 1/2/2/2;
+    object-fit: cover;
+    justify-self: end;
+    margin: 0px;
+    padding: 0px;
+    }
+    .innerSecondPageGrid{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    max-height: 70%;
+    }
+    .heading{
+    font-family: "myFont";
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    }
+    .h1SecondPage{
+    font-family: "myFont";
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    }
+    .secondPageParagraph{
+    font-family: "myFont";
+    font-size: 20px;
+    color: #585757;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    }
+    .learnMore{
+    font-family: "myFontSemi";
+      display: flex;
+      color: #24afb5;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      text-align: center;
+    }  
+    .secondButton{
+    background-color: #24afb5;
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 7px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/🔠\ Text.png);
+    background-size: 65% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .partners{
+    font-family: myFont;
+    font-size: 13px;
+    color: #969696;
+    padding-left: 10%;
+    letter-spacing: 1px;
+    }
+    .brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-bottom: 100px;
+    }
+    .secondPageGrid{
+    display: grid;
+    grid-template: 100%/ 50% 50%;
+    place-items: start right;
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #DBDBDB transparent #DBDBDB transparent;
+    column-gap: 3%;
+    }
+    .device{
+    grid-area: 1/2/2/2;
+    object-fit: cover;
+    width: 100%;
+    }
+    .innerSecondPageGrid{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    max-height: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    .heading{
+    font-family: "myFont";
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    }
+    .h1SecondPage{
+    font-family: "myFont";
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    }
+    .secondPageParagraph{
+    font-family: "myFont";
+    font-size: 20px;
+    color: #585757;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    }
+    .learnMore{
+    font-family: "myFontSemi";
+      display: flex;
+      color: #24afb5;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      text-align: center;
+    } 
+    .submitButton{
+    background-color: #24afb5;
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 7px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/Subscribe.png);
+    background-size: 65% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    } 
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 92px;
+    }
+  }
+  @font-face {
+    font-family: "myFont";
+    src: url("./fonts/Inter-VariableFont_slnt\,wght.woff2") format("woff");
+  }
+  @font-face {
+    font-family: "myFontSemi";
+    src: url("./fonts/Inter\ Semi\ Bold\ 600.woff2") format("woff");
+  }
+  
